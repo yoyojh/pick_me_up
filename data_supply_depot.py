@@ -1,21 +1,6 @@
 import numpy as np
 import scipy.misc as misc
 import cv2
-'''
-def _process_data(data):
-    # normalization
-    data = np.clip(np.fabs(data), self.a_min, self.a_max)
-    data -= np.amin(data)
-    data /= np.amax(data)
-    return data
-'''
-
-#ISPRS_mean = [119.653288848, 82.6887031058, 81.4276355315, 31.2616442338, 285.871986379]
-
-#nod max = 249, min = 0, mean = 31.2616442338, max-mean = 217.738355766
-
-#dsm max = 360.004, min = 240.7, mean = 285.871986379, max- mean = 74.132013621
-
 
 
 def supply(batch_num, batch_size ,data_files,size,mean):
